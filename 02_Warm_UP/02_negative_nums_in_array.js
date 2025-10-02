@@ -10,7 +10,7 @@ function negativeNums(arr) {
     return count;
 }
 
-let arr = [1, 34, 435, -45, -3, 67, -77];
+let arr = [1, 34, 435, -45, -3, 67, -77]; // 3
 
 let result = negativeNums(arr);
 console.log(result);
