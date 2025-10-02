@@ -1,7 +1,7 @@
 // Write a function that returns largest element in an array
 
 function smallestEle(arr) {
-    let smallest = arr[0];
+    let smallest = +Infinity;
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] < smallest) {
         smallest = arr[i];
