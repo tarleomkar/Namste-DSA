@@ -9,14 +9,14 @@ function secondLargestEle(arr) {
         secondLarget = firstLargest;
         firstLargest = arr[i];
     }
-    else if(arr[i] > secondLarget) {
+    else if(arr[i] > secondLarget && arr[i]!= firstLargest) {
         secondLarget = arr[i]
     }
     }
     return secondLarget;
 }
 
-let arr = [4, 9, 0, 2, 8, 7, 1];
+let arr = [4, 9, 0, 9, 2, 8, 7, 1];
 
 let result = secondLargestEle(arr);
 console.log(result); // 8
