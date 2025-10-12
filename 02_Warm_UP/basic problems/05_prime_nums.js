@@ -10,6 +10,6 @@ for (let i = 2; i <= n; i++) {
         }
     }
     if (isPrime) {
-        console.log(i);
+        console.log(i); // printed result
     }
 }
